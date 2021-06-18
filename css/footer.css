@@ -1,0 +1,98 @@
+/* FOOTER */
+/* ***** */
+
+/* Smartphone */
+
+@media only screen and (min-width:300px) and (max-width: 450px) {
+    .footer{
+        display: flex;
+        width: 100vw;
+        background-color: rgb(208, 223, 243);
+    }
+    
+    p{
+       
+   
+    
+    }
+
+    h5{
+        margin: 0;
+
+    }
+
+    li{
+        margin: 2px;
+    }
+
+    .social{
+        display: flex;
+        flex-flow:column;
+        margin: 0;
+        font-size: 13px;
+    }
+
+    .principal{
+        display: flex;
+        flex-flow:column;
+        margin: 0;
+        font-size: 13px;
+    }
+
+    .copy{
+        display: flex;
+        flex-direction:row-reverse;
+        align-items: center;
+    }
+}
+
+
+
+
+/* Desktop */
+.contenedor{
+    
+    
+}
+
+.footer{
+    display: flex;
+    padding: 20px;
+    width: 100vw;
+    background-color: rgb(206, 212, 231);
+
+}
+
+h5, h6{
+    font-size: 18px;
+
+}
+
+p{
+    display: flex;
+    font-size: 12px;
+    flex-direction: column-reverse;
+    flex-grow: 1;
+    margin: 0;
+
+    
+}
+
+.social{
+    flex-grow: 0.3;
+    color: rgb(0, 0, 0);;
+}
+
+.principal{
+    flex-grow: 1;
+    color: rgb(0, 0, 0);
+}
+
+.copy{
+    display: flex;
+    font-size: 12px;
+    flex-direction: column-reverse;
+    margin: 0;
+}
+
+}
